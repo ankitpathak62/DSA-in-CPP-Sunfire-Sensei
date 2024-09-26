@@ -13,28 +13,25 @@ int main()
     {
         cin >> arr[i];
     }
-
-    for (int i = n - 1; i >= 1; i--)
+    for (int i = 1; i < n; i++)
     {
-        bool swapped = 0;
-
-        for (int j = 0; j < i; j++)
+        for (int j = i; j > 0; j--)
         {
-            if (arr[j] > arr[j + 1])
+            if (arr[j] < arr[j - 1])
             {
-                swapped = 1;
-                swap(arr[j], arr[j + 1]);
+                // int temp = arr[j];
+                // arr[j] = arr[j-1];
+                // arr[j-1] = temp;
+                swap(arr[j], arr[j - 1]);
+            }
+            else
+            {
+                break;
             }
         }
-        if (swapped == 0)
-        {
-            break;
-        }
     }
-
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
     }
-    return 0;
 }
