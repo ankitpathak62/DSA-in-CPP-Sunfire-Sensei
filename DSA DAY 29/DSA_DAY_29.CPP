@@ -80,14 +80,27 @@ int main()
     cout << endl;
     // sort vector x
     sort(x.begin(), x.end());
-    for (int i = 0; i < x.size(); i++)
-    {
-        cout << x[i] << " ";
-    }
-    cout << endl;
-    sort(x.begin(), x.end(), greater<int>());
-    for (int i = 0; i < x.size(); i++)
-    {
-        cout << x[i] << " ";
-    }
+    // for (int i = 0; i < x.size(); i++)
+    // {
+    //     cout << x[i] << " ";
+    // }
+    // cout << endl;
+    // sort(x.begin(), x.end(), greater<int>());
+    // for (int i = 0; i < x.size(); i++)
+    // {
+    //     cout << x[i] << " ";
+    // }
+    //  cout << endl;
+ 
+    // sort(x.rbegin(), x.rend());
+    // for (int i = 0; i < x.size(); i++)
+    // {
+    //     cout << x[i] << " ";
+    // }
+
+
+//search in binary search
+cout<<binary_search(x.begin(),x.end(),451)<<endl;
+
+cout << find(x.begin(),x.end(),45)<<endl;
 }
