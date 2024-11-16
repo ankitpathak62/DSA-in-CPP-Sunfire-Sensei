@@ -3,6 +3,8 @@
         "*.embeddedhtml": "html",
         "*.ejs": "html",
         "iostream": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "vector": "cpp",
+        "ostream": "cpp"
     }
 }
