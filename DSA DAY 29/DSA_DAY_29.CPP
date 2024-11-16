@@ -102,5 +102,5 @@ int main()
 //search in binary search
 cout<<binary_search(x.begin(),x.end(),451)<<endl;
 
-cout << find(x.begin(),x.end(),45)<<endl;
+// cout << find(x.begin(),x.end(),45)<<endl;
 }
