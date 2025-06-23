@@ -8,6 +8,9 @@
         "ostream": "cpp",
         "xutility": "cpp",
         "xlocale": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "xmemory": "cpp"
     }
 }
